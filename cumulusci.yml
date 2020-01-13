@@ -1,0 +1,19 @@
+minimum_cumulusci_version: '3.2.0'
+project:
+    name: SMS-for-Flows
+    package:
+        name:  SMS-for-Flows
+        api_version: '47.0'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/SMS-for-Flows/tests
+            options:
+                outputdir: robot/SMS-for-Flows/results
+
+    robot_testdoc:
+        options:
+            path: robot/SMS-for-Flows/tests
+            output: robot/SMS-for-Flows/doc/SMS-for-Flows_tests.html

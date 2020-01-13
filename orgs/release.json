@@ -1,0 +1,11 @@
+{
+  "orgName": "SMS-for-Flows - Release Test Org",
+  "edition": "Enterprise",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    }  }
+}

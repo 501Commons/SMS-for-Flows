@@ -1,9 +1,12 @@
-# SMS for Flow
-SMS for Flow provides the ability for users to send SMS messages via Flow and Process Builder using the Twilio Messaging API.  Easily drag and drop these invocable Apex methods into a flow to send case status updates, order delivery updates, or appointment confirmations to your customers. This requires your own Twilio account.
- 
-## Installation
-This package requires some post-installation configuration. These steps have been captured in the 'SMS for Flows Implementation and User Guide'. 
+# SMS-for-Flows
 
-## Documentation 
-- [AppExchange Listing](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FeF9YUAV)
-- [SMS for Flows Implementation and User Guide](https://appexchange.salesforce.com/servlet/servlet.FileDownload?file=00P3A00000gAwX0UAK)
+Add a brief description of this project here, in Markdown format.
+It will be shown on the main page of the project's GitHub repository.
+
+## Development
+
+To work on this project in a scratch org:
+
+1. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/tutorial.html)
+2. Run `cci flow run dev_org --org dev` to deploy this project.
+3. Run `cci org browser dev` to open the org in your browser.
