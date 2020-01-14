@@ -25,6 +25,10 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>SMS_for_Flow</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>TwilioCredentials__c.API_Key__c</members>
         <members>TwilioCredentials__c.API_Secret__c</members>
         <members>TwilioCredentials__c.Account_Id__c</members>
