@@ -1,23 +1,24 @@
-# Salesforce / SFDX / CCI
-.cci
-.sfdx
-/src.orig
-/src
-
-# Python
-*.pyc
-__pycache__
-
-# Robot Framework results
-robot/SMS-for-Flows/results/
-
-# Editors
-*.sublime-project
-*.sublime-workspace
-.vscode
-.idea
 .project
 .settings
-
-# Misc
-.DS_Store
+salesforce.schema
+Referenced Packages
+salesforce-food-bank.sublime-project
+salesforce-food-bank.sublime-settings
+salesforce-food-bank.sublime-workspace
+/resource-bundles/Angular.resource/mm.log
+/config/
+/apex-scripts/
+/.DS_Store
+/resource-bundles/.DS_Store
+/resource-bundles/Angular.resource/mmui.log
+/resource-bundles/Angular.resource/mmst.log
+/resource-bundles/Angular.resource/bower_components*
+.sfdx/
+.vscode/
+test_results*
+/temp
+~*
+/force-app
+/src.orig
+/debug.log
+.cci

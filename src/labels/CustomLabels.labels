@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Twilio_API_Key</fullName>
+        <categories>flowforsms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Twilio API Key</shortDescription>
+        <value>Twilio API Key</value>
+    </labels>
+    <labels>
+        <fullName>Twilio_API_Secret</fullName>
+        <categories>flowforsms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Twilio API Secret</shortDescription>
+        <value>Twilio API Secret</value>
+    </labels>
+    <labels>
+        <fullName>Twilio_API_Setup</fullName>
+        <categories>flowforsms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Twilio API Setup</shortDescription>
+        <value>Twilio API Setup</value>
+    </labels>
+    <labels>
+        <fullName>Twilio_Account_Id</fullName>
+        <categories>flowforsms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Twilio Account Id</shortDescription>
+        <value>Twilio Account Id</value>
+    </labels>
+    <labels>
+        <fullName>Twilio_Cancel</fullName>
+        <categories>flowforsms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel Button</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Twilio_Outbound_Number</fullName>
+        <categories>flowforsms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Twilio Outbound Number</shortDescription>
+        <value>Twilio Outbound Number</value>
+    </labels>
+    <labels>
+        <fullName>Twilio_Save</fullName>
+        <categories>flowforsms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save Button</shortDescription>
+        <value>Save</value>
+    </labels>
+</CustomLabels>
