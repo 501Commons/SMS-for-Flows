@@ -5,7 +5,7 @@
  * For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 
-global with sharing class TwilioService {
+global with sharing class TwilioService implements Database.AllowsCallouts {
     
     /* Method: sendTwilioMessage
      * Params: List<TwilioMessage>
