@@ -15,6 +15,7 @@ public with sharing class TwilioServiceAsyncQueue implements Queueable, Database
      * Description: Constructor for class, sets the messages for queueing callout
      */
     public TwilioServiceAsyncQueue(List<TwilioMessage> messages) {
+        System.debug(LoggingLevel.DEBUG, '****TwilioServiceAsyncQueue::TwilioServiceAsyncQueue messages: ' + messages);
         this.twilioMessages = messages;
     }
 
@@ -26,9 +27,12 @@ public with sharing class TwilioServiceAsyncQueue implements Queueable, Database
      */
     public void execute(QueueableContext context) {
 
+        System.debug(LoggingLevel.DEBUG, '****TwilioServiceAsyncQueue::execute context: ' + context);
+
          for (TwilioMessage msg : twilioMessages) {
+            System.debug(LoggingLevel.DEBUG, '****TwilioServiceAsyncQueue::execute msg: ' + msg);
             TwilioMessageResponse status = TwilioHttp.twilioMessage(msg);
-           
+            System.debug(LoggingLevel.DEBUG, '****TwilioServiceAsyncQueue::execute status: ' + status);
         }
     }
 }
